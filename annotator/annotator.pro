@@ -21,4 +21,5 @@ FORMS += \
         MainWindow.ui
 
 DISTFILES += \
-    ../.travis.yml
+    ../.travis.yml \
+    ../appveyor.yml
