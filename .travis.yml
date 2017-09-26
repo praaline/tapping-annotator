@@ -52,7 +52,7 @@ script:
       make;
     else
       qmake -v;
-      qmake ../PraalineLib.pro CONFIG+=release;
+      qmake ../tapping-annotator.pro CONFIG+=release;
       make;
     fi
 
