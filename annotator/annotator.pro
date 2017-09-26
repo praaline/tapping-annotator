@@ -19,3 +19,6 @@ HEADERS += \
 
 FORMS += \
         MainWindow.ui
+
+DISTFILES += \
+    ../.travis.yml

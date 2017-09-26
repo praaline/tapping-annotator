@@ -5,3 +5,6 @@ TEMPLATE = subdirs
 CONFIG += ordered
 
 SUBDIRS += annotator editor
+
+
+
