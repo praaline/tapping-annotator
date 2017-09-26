@@ -22,4 +22,6 @@ FORMS += \
 
 DISTFILES += \
     ../.travis.yml \
-    ../appveyor.yml
+    ../appveyor.yml \
+    ../README.md \
+    ../LICENSE
