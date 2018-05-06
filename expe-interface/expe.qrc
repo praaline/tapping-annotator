@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/expe">
+        <file>fixation.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EndExperimentForm</class>
+ <widget class="QWidget" name="EndExperimentForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>929</width>
+    <height>704</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>50</number>
+   </property>
+   <property name="topMargin">
+    <number>50</number>
+   </property>
+   <property name="rightMargin">
+    <number>50</number>
+   </property>
+   <property name="bottomMargin">
+    <number>50</number>
+   </property>
+   <item row="4" column="0">
+    <widget class="QLabel" name="labelYourComments_2">
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Crédits</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <spacer name="verticalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="labelYourComments">
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Merci de votre participation!</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="7" column="0">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;- Test de perception de l'intonation: Les extraits que vous avez entendus proviennent du &amp;quot;Manual of Articulatory Phonetics&amp;quot; de W. Smalley (1963).&lt;/p&gt;&lt;p&gt;- Test de mémoire de travail: Counting Span Test, adapté depuis la publication Kanerva K., Kiistala I., Kiuru N. (2015) Using Tablets to Assess Working Memory Capacity in School Settings, Poster presented at The 5th Conference of the European Societies of Neuropsychology, 9-11 September 2015.&lt;/p&gt;&lt;p&gt;- Les extraits de parole que vous avez entendus proviennent du corpus LOCAS-F: Martin L., Degand L., Simon A.C. (2014) Forme et fonction de la périphérie gauche dans un corpus oral multigenres annoté, &lt;span style=&quot; font-style:italic;&quot;&gt;Corpus&lt;/span&gt;, vol. 13, 243-265.&lt;/p&gt;&lt;p&gt;- Les extraits de parole manipulée ont été synthétisées à l'aide du système MBROLA: Dutoit T. et al. (1996) The MBROLA project: Towards a set of high-quality speech synthesizers free of use for noncommercial purposes, Proceedings of the 4th International Conference on Spoken Language Processing (ICSLP96), vol. 3, Philadelphia (USA), 1393-1396.&lt;/p&gt;&lt;p&gt;- Logiciel d'expérimentation TapDance, version 1.0 (Octobre 2016) développé par G. Christodoulides. Utilise le Qt Framework, version 5.7.0 (The Qt Company) sous license GPL.&lt;/p&gt;&lt;p&gt;- Si vous souhaitez lire les résultats d'un test similaire avec des naïfs, nous vous donnons accès à la publication suivante: Simon A.C. &amp;amp; Christodoulides, G., Frontières prosodiques perçues: corrélats acoustiques et indices syntaxiques, &lt;span style=&quot; font-style:italic;&quot;&gt;Langue française&lt;/span&gt;, Vol. 190, 83-106.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="labelGoodbye">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Nous vous tiendrons au courant des résultats.
+
+Pour plus d'information, contactez:
+Anne Catherine Simon, anne-catherine.simon@uclouvain.be
+George Christodoulides, george.christodoulides@uclouvain.be
+
+À bientôt!</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QPushButton" name="buttonFinished">
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Appuyez ici ou tapez sur la barre d'espace pour fermer l'expérience</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
