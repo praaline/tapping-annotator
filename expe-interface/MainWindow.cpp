@@ -10,7 +10,6 @@
 #include "ui_MainWindow.h"
 
 #include "ParticipantIdentifactionForm.h"
-#include "TonePerceptionTestForm.h"
 #include "WorkingMemoryTestForm.h"
 #include "TappingTestForm.h"
 #include "FinalQuestionnaireForm.h"
